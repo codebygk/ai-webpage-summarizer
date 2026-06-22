@@ -1,6 +1,7 @@
-# AI Webpage Summarizer
+# Webpage Summarizer
 
 A full-featured AI webpage analysis tool that fetches a webpage, extracts visible content, removes clutter, and generates a concise markdown summary using OpenAI.
+
 
 ## Features
 - Fetches a webpage by URL.
@@ -15,13 +16,14 @@ A full-featured AI webpage analysis tool that fetches a webpage, extracts visibl
 - Internet access to fetch webpages and call the OpenAI-compatible API
 
 ## Setup
+Repository: [https://github.com/codebygk/ai-webpage-summarizer](https://github.com/codebygk/ai-webpage-summarizer)
 1. Clone the repository and open the project folder.
 2. Create a .env file in the project root.
 3. Add the following variables to .env:
 
 ```shell
-BASE_URL=your_openai_compatiable_base_url
-API_KEY=your_openai_compatiable_api_key
+BASE_URL=your_openai_compatible_base_url
+API_KEY=your_openai_compatible_api_key
 MODEL=gpt-4o-mini
 ```
 
