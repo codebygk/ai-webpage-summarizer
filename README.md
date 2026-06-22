@@ -46,3 +46,6 @@ Then follow the prompts:
 - Enter the URL of the page to summarize.
 - Wait while the tool fetches the page and generates the summary.
 - Confirm if you want to summarize another page.
+
+## Need something better?
+Checkout [Nanoread](https://nanoread.vercel.app) - A clean and fast web app that summarizes any webpage using AI. Paste a URL and get the summary in seconds.
