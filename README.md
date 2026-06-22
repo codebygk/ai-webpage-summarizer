@@ -10,33 +10,33 @@ A full-featured AI webpage analysis tool that fetches a webpage, extracts visibl
 
 ## Requirements
 - Python 3.9+
-- `uv` package manager (https://uv.run) (Install and configure using documentation. Verify installation using `uv --version`)
+- uv package manager (https://docs.astral.sh/uv/getting-started/installation/) (Install and configure using documentation. Verify installation using `uv --version`)
 - OpenAI-compatible API key
 - Internet access to fetch webpages and call the OpenAI-compatible API
 
 ## Setup
 1. Clone the repository and open the project folder.
-2. Create a `.env` file in the project root.
-3. Add the following variables to `.env`:
+2. Create a .env file in the project root.
+3. Add the following variables to .env:
 
-```env
+```shell
 BASE_URL=your_openai_compatiable_base_url
 API_KEY=your_openai_compatiable_api_key
 MODEL=gpt-4o-mini
 ```
 
-4. (Optional) Set `BASE_URL` if you need a custom OpenAI-compatible endpoint. By default it uses `https://api.openai.com/v1`.
+4. (Optional) Set BASE_URL if you need a custom OpenAI-compatible endpoint. By default it uses `https://api.openai.com/v1`.
 
-5. Install project dependencies with `uv`:
+5. Install project dependencies with uv:
 
-```bash
+```shell
 uv install
 ```
 
 ## Usage
 Run the script from the project directory:
 
-```bash
+```shell
 uv run main.py
 ```
 
